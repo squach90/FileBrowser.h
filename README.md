@@ -7,8 +7,14 @@ FileBrowser.h is a lightweight C library to navigate and select files directly f
 Simply put `file_browser.h` in your `includes` folder.
 *Yeah it's simple like that*
 
-You can download with that : `curl -O https://raw.githubusercontent.com/squach90/FileBrowser.h/refs/heads/main/file_browser.h` or `wget https://raw.githubusercontent.com/squach90/FileBrowser.h/main/file_browser.h`
-
+You can download with that : 
+```sh
+curl -O https://raw.githubusercontent.com/squach90/FileBrowser.h/refs/heads/main/file_browser.h
+``` 
+or
+```sh
+wget https://raw.githubusercontent.com/squach90/FileBrowser.h/main/file_browser.h`
+```
 #### How to use ?
 
 To use `file_browser.h` in a **C** file you need to adds:
