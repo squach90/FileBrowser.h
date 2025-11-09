@@ -2,7 +2,7 @@
 
 FileBrowser.h is a lightweight C library to navigate and select files directly from the terminal.
 
-#### Install
+### Install
 
 Simply put `file_browser.h` in your `includes` folder.
 *Yeah it's simple like that*
@@ -15,7 +15,7 @@ or
 ```sh
 wget https://raw.githubusercontent.com/squach90/FileBrowser.h/main/file_browser.h`
 ```
-#### How to use ?
+### How to use ?
 
 To use `file_browser.h` in a **C** file you need to adds:
 
@@ -54,7 +54,7 @@ int main(void) {
 }
 ```
 
-##### Notes
+#### Notes
 - Works in terminal using arrow keys to navigate and Enter to select.
 - Only supports Unix-like systems (Linux/macOS) because of `termios` and `unistd.h`.
 
